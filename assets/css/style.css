@@ -9,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +22,6 @@ body {
     font-size: 48px;
 }
 
-/* removed .seo element to clean code */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -46,11 +46,13 @@ body {
     margin-left: 25px;
 }
 
+/* text styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* text styling */
 p {
     font-size: 16px;
 }
