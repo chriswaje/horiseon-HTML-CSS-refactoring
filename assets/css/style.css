@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+/* body background-color */
 body {
     background-color: #d9dcd6;
 }
@@ -17,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* header 1 stying */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styling for "SEO" in header 1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -57,7 +60,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* styling for webpage figure */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -66,23 +70,27 @@ p {
     background-position: center;
 }
 
+/* styling for 1st and 2nd article img */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* styling for 2nd article img */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+/* styling for main section */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* styling for aside section */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -93,55 +101,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* styling for aside articles */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* styling for aside article heading 3 */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* styling for aside article images */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* styling for main articles */
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,51 +130,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* styling for main article images */
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* styling for main article heading 2 */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* styling for footer section */
 footer {
     padding: 30px;
     clear: both;
@@ -202,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* styling for footer header 2 */
 footer h2 {
     font-size: 20px;
 }
